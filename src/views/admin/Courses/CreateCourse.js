@@ -22,6 +22,7 @@ export default function CreateCourse() {
     setLoading(false);
   };
 
+  //function to remove Course
   const removeCourse = async (item) => {
     try {
       await deleteCourse(item.id);
